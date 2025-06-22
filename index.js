@@ -71,6 +71,8 @@ let b = 10;
 console.log(a); // 10
 console.log(b); // 5
 
+// Note: It is used in an order as per the position of items in the array.
+
 ___________________________________________________________
 
 
@@ -135,7 +137,34 @@ const {address: { city, pin }} = profile;
 console.log(city); // "Mumbai"
 console.log(pin);  // 400001
 
+// Note: It is directly access with object keys name.
+
 ______________________________________________________
+
+☑️ Real-World Use Case: 
+
+🔹 Array (React-like props)
+
+const [firstName, lastName] = "Sajid Alam".split(" ");
+console.log(firstName); // Sajid
+console.log(lastName);  // Alam
+
+
+🔹 Object (API response)
+
+const user = {
+  id: 1,
+  name: "Sajid",
+  email: "sajid@gmail.com"
+};
+
+function displayUser({ name, email }) {
+  console.log(`User: ${name}, Email: ${email}`); // User : Sajid, Email: sajid@gmail.com 
+}
+
+displayUser(user);
+
+
 
 
 
