@@ -185,7 +185,8 @@ console.log(pin);  // 400001
 // Note: It is directly access with object keys name.
 
 ---
-`1
+
+
 ## ☑️ Real-World Use Case: 
 
 🔹 Array (React-like props)
@@ -216,3 +217,11 @@ function displayUser({ name, email }) {
 displayUser(user);
 
 ```
+
+---
+
+# Show your support
+
+if you find this helpful for learning, please give it a star ⭐
+
+Thanks for reading 🙏🏼
