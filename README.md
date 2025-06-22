@@ -5,9 +5,7 @@
 
 ## What is Destructuring? 🤔
 
--> Destructuring means breaking down arrays or objects and extracting their values into variables, 
-
-in a clean and short way.
+-> Destructuring means breaking down arrays or objects and extracting their values into variables, in a clean and short way.
 
 It saves you from writing long and repetitive code like this: 👇🏼
 
